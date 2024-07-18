@@ -2,7 +2,17 @@
     margin: 10px 0px 10px 0px !important;
     font-size: 25px ;
 }
+.score{
+  width:fit-content;
+  padding: 10px;
+  border-radius: 20px;
+}
+.hello{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
 @media(max-width:740px){
   .okji{
     font-size: 25px;

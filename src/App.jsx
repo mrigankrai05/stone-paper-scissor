@@ -7,7 +7,7 @@ import Result from './Result'
 import Score from './Score'
 
 function App() {
-  let [hand, setHand] = useState({ first: null, second: null, score: 0 ,com:0});
+  let [hand, setHand] = useState({ first: null, second: null, score: 0 ,com:0,draw:0});
   
   let arr=["scissor","hand","stone"];
 
@@ -33,7 +33,8 @@ function App() {
         first: first,
         second: arr[second],
         score: prev.score + final(),
-        com: prev.com + (final()==null ? 0 : (!final()))
+        com: prev.com + (final()==null ? 0 : (!final())),
+        draw:prev.draw + (final()==null ? 1:null)
       };
     });
   }
