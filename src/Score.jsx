@@ -21,7 +21,7 @@ else {
           <p className="okji">DRAW :- {hand.draw}</p>
         </div>
       </div>
-      <p style={{ fontSize: "20px" }}>PLEASE PRESS AGAIN TO START</p>
+      <p style={{ fontSize: "20px" }}>PLEASE PRESS AGAIN TO START NEXT ROUND</p>
     </>
   );
 }}

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./hands.css"
-
+import Result from './Result';
 
 export default function Hands({hand,images}) {
     if(hand.first==null){
@@ -29,6 +29,7 @@ export default function Hands({hand,images}) {
                   }
                 ></img>
               </div>
+              <Result hand={hand} />
               <div className="holder">
                 <h3>COMPUTER</h3>
                 <img

@@ -51,8 +51,7 @@ function App() {
         STONE PAPER SCISSOR
       </h1>
       <Hands hand={hand} images={images} />
-
-      <Result hand={hand} />
+      
       <Score hand={hand} />
       <Options setting={setting} images={images} />
       {hand.first != null ? <Reset handle={setHand} /> : null}

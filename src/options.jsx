@@ -7,7 +7,6 @@ export default function Options({setting,images}) {
         return Math.floor(Math.random()*3);
     }
     function done(event){
-        console.log(event.currentTarget.value);
         let a = event.currentTarget.value;
         let rand=generate();
         setting(a,rand);
