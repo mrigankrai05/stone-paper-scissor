@@ -1,0 +1,12 @@
+.ok{
+    text-align: center;
+}
+
+.but{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px !important;
+}

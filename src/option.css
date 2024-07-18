@@ -1,0 +1,38 @@
+.option{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.image{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    transform: rotate(270deg);
+}
+
+.button{
+    margin: 0px 20px 0px 20px;
+    border-radius: 50%;
+}
+
+@media(max-width:1080px){
+  .image{
+    height: 100px;
+    width: 100px;
+  }
+}
+@media(max-width:740px){
+  .image{
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media(max-width:450px){
+  .image{
+    height: 60px;
+    width: 60px;
+  }
+}
