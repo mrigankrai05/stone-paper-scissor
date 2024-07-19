@@ -12,9 +12,9 @@ function App() {
   let arr=["scissor","hand","stone"];
 
   let images = {
-    hand: "./src/assets/hands.png",
-    stone: "./src/assets/images.png",
-    scissor: "./src/assets/Unknown.png",
+    hand: "../static/images/hands.png",
+    stone: "../static/images/images.png",
+    scissor: "../static/images/Unknown.png",
   };
   
   function setting(first,second){
