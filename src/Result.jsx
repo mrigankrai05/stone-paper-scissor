@@ -9,7 +9,7 @@ export default function Result({ hand ,update}) {
   } else if (hand.first == hand.second) {
     return (
       <>
-        <h2>IT IS DRAW</h2>
+        <h2>IT'S DRAW</h2>
       </>
     );
   } else if (hand.first == "stone" && hand.second == "scissor") {
