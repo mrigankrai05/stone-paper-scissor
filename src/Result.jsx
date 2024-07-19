@@ -1,8 +1,6 @@
 import React from "react";
 import "./result.css";
-
-
-export default function Result({ hand ,update}) {
+export default function Result({ hand }) {
 
   if (hand.first == null) {
     return null;

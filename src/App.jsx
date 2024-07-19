@@ -3,7 +3,6 @@ import './App.css'
 import Hands from './hands'
 import Options from './options'
 import Reset from './reset'
-import Result from './Result'
 import Score from './Score'
 
 function App() {
@@ -51,7 +50,6 @@ function App() {
         STONE PAPER SCISSOR
       </h1>
       <Hands hand={hand} images={images} />
-      
       <Score hand={hand} />
       <Options setting={setting} images={images} />
       {hand.first != null ? <Reset handle={setHand} /> : null}
